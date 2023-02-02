@@ -1,0 +1,26 @@
+{
+  "name": "lazy-discord-bot",
+  "version": "1.0.0",
+  "description": "A bot for my Discord server to automate daily tasks, built with Fastify and Discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresromeroh/lazy-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresromeroh/lazy-discord-bot/issues"
+  },
+  "homepage": "https://github.com/andresromeroh/lazy-discord-bot#readme",
+  "dependencies": {
+    "@fastify/schedule": "^4.1.0",
+    "discord.js": "^14.7.1",
+    "fastify": "^4.12.0",
+    "toad-scheduler": "^2.2.0"
+  }
+}
